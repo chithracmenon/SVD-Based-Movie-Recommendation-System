@@ -1,0 +1,19 @@
+Iteration  1:
+Fold  1 rmse, precision, recall: 0.883617 0.841341 0.338846
+Fold  2 rmse, precision, recall: 0.884428 0.841423 0.338119
+Iteration  2:
+Fold  1 rmse, precision, recall: 0.883128 0.841496 0.336698
+Fold  2 rmse, precision, recall: 0.885469 0.837914 0.340263
+Iteration  3:
+Fold  1 rmse, precision, recall: 0.885600 0.838484 0.339796
+Fold  2 rmse, precision, recall: 0.883403 0.843120 0.337907
+Iteration  4:
+Fold  1 rmse, precision, recall: 0.883413 0.843563 0.337798
+Fold  2 rmse, precision, recall: 0.885092 0.838890 0.337941
+Iteration  5:
+Fold  1 rmse, precision, recall: 0.884969 0.841578 0.338575
+Fold  2 rmse, precision, recall: 0.883572 0.840986 0.339277
+
+Mean training rmse, precision, recall: 0.884269 0.840880 0.338522
+
+Independent test data accuracy, RMSE: 0.9880
