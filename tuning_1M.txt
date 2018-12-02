@@ -1,0 +1,49 @@
+algo=SVD(n_factors=200, n_epochs=100, lr_all=0.005, reg_all = 0.06, init_std_dev=0.1) 
+O/P:
+Mean training rmse, precision, recall: 0.883004 0.841293 0.340913
+Independent test data accuracy, RMSE: 0.9888
+
+algo=SVD(n_factors=100, n_epochs=50, lr_all=0.005, reg_all = 0.06, init_std_dev=0.1)
+O/P:
+Mean training rmse, precision, recall: 0.884269 0.840880 0.338522
+Independent test data accuracy, RMSE: 0.9880
+
+algo=SVD(n_factors=200, n_epochs=50, lr_all=0.005, reg_all = 0.05, init_std_dev=0.1)  
+O/P:
+Mean training rmse, precision, recall: 0.888738 0.835221 0.338348
+Independent test data accuracy, RMSE: 0.9882
+
+algo=SVD(n_factors=200, n_epochs=50, lr_all=0.005, reg_all = 0.02, init_std_dev=0.1) 
+O/P:
+Mean training rmse, precision, recall: 0.932103 0.808348 0.333222
+Independent test data accuracy, RMSE: 0.9881
+
+algo=SVD(n_factors=600, n_epochs=50, lr_all=0.005, reg_all = 0.05, init_std_dev=0.1)
+O/P:
+Mean training rmse, precision, recall: 0.887337 0.837007 0.340317
+Independent test data accuracy, RMSE: 0.9884
+
+algo=SVD(n_factors=200, n_epochs=100, lr_all=0.005, reg_all = 0.02, init_std_dev=0.1)
+O/P:
+Mean training rmse, precision, recall: 0.929030 0.811961 0.333876
+Independent test data accuracy, RMSE: 0.9884
+
+algo=SVD(n_factors=200, n_epochs=20, lr_all=0.005, reg_all = 0.02, init_std_dev=0.1)  
+O/P:
+Mean training rmse, precision, recall: 0.914502 0.815637 0.336658
+Independent test data accuracy, RMSE: 0.9889
+
+algo=SVD(n_factors=200, n_epochs=20, lr_all=0.001, reg_all = 0.02, init_std_dev=0.1)
+O/P:
+Mean training rmse, precision, recall: 0.932916 0.805716 0.346963
+Independent test data accuracy, RMSE: 0.9969
+
+algo=SVD(n_factors=200, n_epochs=20, lr_all=0.005, reg_all = 0.02, init_std_dev=0.2)  
+O/P:
+Mean training rmse, precision, recall: 0.990567 0.767239 0.322798
+Independent test data accuracy, RMSE: 0.9905
+
+algo=SVD(n_factors=200, n_epochs=20, lr_all=0.005, reg_all = 0.04, init_std_dev=0.2)  
+O/P:
+Mean training rmse, precision, recall: 0.941991 0.789352 0.329583
+Independent test data accuracy, RMSE: 0.9887
