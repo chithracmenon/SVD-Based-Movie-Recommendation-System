@@ -1,0 +1,88 @@
+Parameters for the model:
+algo=SVD(n_factors=200, n_epochs=50, lr_all=0.007, reg_all = 0.01, init_std_dev=0.1)
+
+1million:
+
+Start time:: Sat Nov 24 12:51:40 2018
+Iteration  1:
+Fold  1 rmse, precision, recall: 0.970485 0.793375 0.330549
+Fold  2 rmse, precision, recall: 0.970106 0.794844 0.330103
+Iteration  2:
+Fold  1 rmse, precision, recall: 0.968059 0.791007 0.330048
+Fold  2 rmse, precision, recall: 0.968609 0.796467 0.331387
+Iteration  3:
+Fold  1 rmse, precision, recall: 0.968313 0.791331 0.330233
+Fold  2 rmse, precision, recall: 0.967838 0.796324 0.328472
+Iteration  4:
+Fold  1 rmse, precision, recall: 0.970475 0.795431 0.330030
+Fold  2 rmse, precision, recall: 0.967052 0.795651 0.332546
+Iteration  5:
+Fold  1 rmse, precision, recall: 0.971059 0.790441 0.330360
+Fold  2 rmse, precision, recall: 0.968586 0.798806 0.330485
+Mean training rmse, precision, recall: 0.969058 0.794368 0.330421
+Independent test data accuracy, RMSE: 0.9885
+End time::Sat Nov 24 13:10:50 2018
+
+
+100k dataset:
+Start time:: Sat Nov 24 13:34:40 2018
+Iteration  1:
+Fold  1 rmse, precision, recall: 0.948911 0.710716 0.321662
+Fold  2 rmse, precision, recall: 0.953745 0.711523 0.325332
+Iteration  2:
+Fold  1 rmse, precision, recall: 0.951969 0.713426 0.334594
+Fold  2 rmse, precision, recall: 0.949309 0.715834 0.319403
+Iteration  3:
+Fold  1 rmse, precision, recall: 0.942366 0.724345 0.322209
+Fold  2 rmse, precision, recall: 0.952335 0.715745 0.331012
+Iteration  4:
+Fold  1 rmse, precision, recall: 0.950774 0.697597 0.318001
+Fold  2 rmse, precision, recall: 0.943514 0.721467 0.328497
+Iteration  5:
+Fold  1 rmse, precision, recall: 0.944775 0.723714 0.325567
+Fold  2 rmse, precision, recall: 0.949728 0.716565 0.327369
+Mean training rmse, precision, recall: 0.948743 0.715093 0.325365
+Independent test data accuracy, RMSE: 1.0263
+End time::Sat Nov 24 13:36:36 2018
+
+10M dataset:
+Start time:: Sat Nov 24 13:54:51 2018
+Iteration  1:
+Fold  1 rmse, precision, recall: 0.894696 0.788072 0.380733
+Fold  2 rmse, precision, recall: 0.894476 0.788469 0.380258
+Iteration  2:
+Fold  1 rmse, precision, recall: 0.894215 0.787409 0.381921
+Fold  2 rmse, precision, recall: 0.894263 0.788525 0.379973
+Iteration  3:
+Fold  1 rmse, precision, recall: 0.893847 0.787727 0.381161
+Fold  2 rmse, precision, recall: 0.895116 0.787150 0.380966
+Iteration  4:
+Fold  1 rmse, precision, recall: 0.893948 0.788076 0.380940
+Fold  2 rmse, precision, recall: 0.894561 0.787524 0.381370
+Iteration  5:
+Fold  1 rmse, precision, recall: 0.894481 0.788087 0.380989
+Fold  2 rmse, precision, recall: 0.894508 0.787222 0.381073
+Mean training rmse, precision, recall: 0.894411 0.787826 0.380938
+Independent test data accuracy, RMSE: 0.9526
+End time::Sat Nov 24 18:38:58 2018
+
+20M dataset:
+Start time:: Sat Nov 24 18:50:09 2018
+Iteration  1:
+Fold  1 rmse, precision, recall: 0.919170 0.752464 0.379596
+Fold  2 rmse, precision, recall: 0.919518 0.751347 0.379648
+Iteration  2:
+Fold  1 rmse, precision, recall: 0.919484 0.751238 0.379001
+Fold  2 rmse, precision, recall: 0.918872 0.752142 0.380121
+Iteration  3:
+Fold  1 rmse, precision, recall: 0.919503 0.751237 0.379663
+Fold  2 rmse, precision, recall: 0.919328 0.752664 0.379545
+Iteration  4:
+Fold  1 rmse, precision, recall: 0.919592 0.751584 0.378767
+Fold  2 rmse, precision, recall: 0.919190 0.753221 0.380152
+Iteration  5:
+Fold  1 rmse, precision, recall: 0.919034 0.752667 0.379221
+Fold  2 rmse, precision, recall: 0.919792 0.750611 0.379658
+Mean training rmse, precision, recall: 0.919348 0.751917 0.379537
+Independent test data accuracy, RMSE: 0.9922
+End time::Sun Nov 25 03:22:10 2018
